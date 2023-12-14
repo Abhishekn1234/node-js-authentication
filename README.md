@@ -1,24 +1,8 @@
-# node-js-authentication
- #frontend 
- vite-react js-used 
- components used for login,signup,dashboard,home.
+# React + Vite
 
- #backend 
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
- components installed:
- express,mongoose, json web token,cookie-parser,cors,bcryptjs,nodemon.nanaoid
+Currently, two official plugins are available:
 
- cookie-parser for getting cookies values,
- bcryptjs to decrypt the value,
- json web token to enter the token for authentication,nanaoid for short url
-
- cors for middleware access,mongoose to connect to mongodb used model for entering database details use schema is well in the code
-
-
- I have used boostrap also for styling the front end components
-
- when we try to logged in as new user it show as invalid creditials in the console.when we register as a new user it will direct to the login page when logged in and it will go to the dashboard page.
- I have used many hooks like usestate,useeffect,usenavigate etc.I have used axios and methods like get post etc,for geeting api from backend and when we logged in the details should go to the mongodb database.alongside this code I have used url shorten code also.
- The main objective of this project is authentication for users.
- 
- 
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
